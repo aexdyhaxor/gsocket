@@ -3,9 +3,9 @@ case $- in
     *) return ;;
 esac
 
-trap 'echo -e "\n\e[1;31m[!] Santai bang, ZEPHYR DISINI !!!\e[0m\n"; continue' INT
+trap 'echo -e "\n\e[1;31m[!] Santai bang, jangan main tebas !!!\e[0m\n"; continue' INT
 
-expected_hash="b92d19a275c6e06a8a92a4e4ce89a35651c6e0a9fa203b4b4ff9b4e34f359a77"
+expected_hash="0cd81ec34bac18301055cffd1e3b38ba1cae70c060f13a6fc0999a5ebe37ec7c"
 input_hash=""
 
 echo -e "\e[1;36m======================================\e[0m"
